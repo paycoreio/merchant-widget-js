@@ -1,5 +1,5 @@
+#Keep in mind that the "dist" directory is created in CI and published in the npm registry.
 node_modules
-dist
 .cache
 .DS_store
 yarn-error.log
