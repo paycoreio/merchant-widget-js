@@ -5,7 +5,7 @@
 1. Get iframe widget from CDN.
 
 ```html
-<script src="https://unpkg.com/@paycore/merchant-widget-js@0.2.0/dist/merchantWidget.umd.min.js"></script>
+<script src="https://unpkg.com/@paycore/merchant-widget-js@0.2.2/dist/merchantWidget.umd.min.js"></script>
 ```
 
 2. Init widget on your client page:
