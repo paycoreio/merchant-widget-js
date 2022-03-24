@@ -5,7 +5,7 @@
 1. Get iframe widget from CDN.
 
 ```html
-<script src="https://unpkg.com/@paycore/merchant-widget-js@0.2.2/dist/merchantWidget.umd.min.js"></script>
+<script src="https://unpkg.com/@paycore/merchant-widget-js@0.3.0/dist/merchantWidget.umd.min.js"></script>
 ```
 
 2. Init widget on your client page:
@@ -66,7 +66,7 @@ If customer data is provided, it will be passed in the payment processing reques
 - `options.customer.phone` **[Boolean]** Customer phone (Optional)
 - `options.customer.metadata` **[Object]** Key-value map to provide additional user info (Optional)
 - `options.customer.address` **[Object]** User address information (Optional)
-- `options.customer.address.country` **[String]** Customer country (Optional)
+- `options.customer.address.country` **[String - ALPHA 2 CODE]** Customer country (Optional)
 - `options.customer.address.city` **[String]** Customer city (Optional)
 - `options.customer.address.post_code` **[String]** Customer post code (Optional)
 - `options.customer.address.region` **[String]** Customer region (Optional)
