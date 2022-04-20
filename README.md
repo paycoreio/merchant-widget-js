@@ -61,9 +61,9 @@ Some of variables will be generated automatically based on their related colors 
 If customer data is provided, it will be passed in the payment processing request.
 
 - `options.customer.reference_id` **[String]** Unique identifier of the customer. Must always have to be in the customer data object
-- `options.customer.email` **[Boolean]** Customer email (Optional)
-- `options.customer.name` **[Boolean]** Customer name (Optional)
-- `options.customer.phone` **[Boolean]** Customer phone (Optional)
+- `options.customer.email` **[String]** Customer email (Optional)
+- `options.customer.name` **[String]** Customer name (Optional)
+- `options.customer.phone` **[String]** Customer phone (Optional)
 - `options.customer.metadata` **[Object]** Key-value map to provide additional user info (Optional)
 - `options.customer.address` **[Object]** User address information (Optional)
 - `options.customer.address.country` **[String - ALPHA 2 CODE]** Customer country (Optional)
