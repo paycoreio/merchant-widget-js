@@ -5,19 +5,19 @@
 1. Get iframe widget from CDN.
 
 ```html
-<script src="https://unpkg.com/@paycore/merchant-widget-js@0.3.0/dist/merchantWidget.umd.min.js"></script>
+<script src="https://unpkg.com/@paycore/merchant-widget-js@0.4.0/dist/merchantWidget.umd.min.js"></script>
 ```
 
 2. Init widget on your client page:
 
 ```javascript
 window.widget.init({
-  selector: "HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO",
-  flow: "iframe",
-  public_key: "YOUR_PUBLIC_KEY",
-  amount: "AMOUNT_OF_INVOICE",
-  currency: "USD",
-  baseUrl: "URL_OF_YOUR_HPP",
+	selector: 'HTML_ID_SELECTOR_TO_INSERT_WIDGET_INTO',
+	flow: 'iframe',
+	public_key: 'YOUR_PUBLIC_KEY',
+	amount: 'AMOUNT_OF_INVOICE',
+	currency: 'USD',
+	baseUrl: 'URL_OF_YOUR_HPP',
 });
 ```
 
@@ -64,6 +64,8 @@ If customer data is provided, it will be passed in the payment processing reques
 - `options.customer.email` **[String]** Customer email (Optional)
 - `options.customer.name` **[String]** Customer name (Optional)
 - `options.customer.phone` **[String]** Customer phone (Optional)
+- `options.customer.date_of_birth` **[String - FORMAT "YYYY-MM-DD"]** Customer date of birth (Optional)
+- `options.customer.individual_tax_id` **[String]** Customer individual tax ID (Optional)
 - `options.customer.metadata` **[Object]** Key-value map to provide additional user info (Optional)
 - `options.customer.address` **[Object]** User address information (Optional)
 - `options.customer.address.country` **[String - ALPHA 2 CODE]** Customer country (Optional)
