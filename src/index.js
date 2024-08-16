@@ -90,7 +90,7 @@ import EventService from './EventService';
 					expires: ow.optional.any(ow.string, ow.number),
 					theme: ow.optional.string,
 					locale: ow.optional.string,
-					available_locales: ow.optional.array,
+					available_locales: ow.optional.string,
 					reference_id: ow.optional.string,
 					language: ow.optional.string,
 
