@@ -1,6 +1,6 @@
 {
 	"name": "@paycore/merchant-widget-js",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"main": "dist/merchantWidget.umd.min.js",
 	"scripts": {
 		"dev": "webpack --watch --colors --progress",
