@@ -43,6 +43,7 @@ To do this, you need set true **[Boolean]** value;
 - `options.display.hide_progress_bar` **[Boolean]**
 - `options.display.hide_method_filter` **[Boolean]**
 - `options.display.hide_lifetime_counter` **[Boolean]**
+- `options.display.hide_invoice_lifetime_counter` **[Boolean]**
 
 ## HPP Styling config
 

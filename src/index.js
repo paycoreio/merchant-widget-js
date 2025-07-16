@@ -124,6 +124,7 @@ import EventService from './EventService';
 						hide_progress_bar: ow.optional.boolean,
 						hide_method_filter: ow.optional.boolean,
 						hide_lifetime_counter: ow.optional.boolean,
+						hide_invoice_lifetime_counter: ow.optional.boolean,
 					}),
 
 					style: ow.optional.object.exactShape({
